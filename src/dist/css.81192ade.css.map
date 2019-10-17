@@ -1,0 +1,1 @@
+{"version":3,"sources":["css/index.scss"],"names":[],"mappings":"AAAA;EACE;EACA;;;AAGF;EACE;EACA","file":"css.81192ade.css","sourceRoot":"..","sourcesContent":[".visible {\n  display: inherit;\n  visibility: inherit;\n}\n\n.hidden {\n  display: none;\n  visibility: hidden;\n}"]}

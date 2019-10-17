@@ -1,0 +1,28 @@
+{
+  "name": "s00b-template",
+  "version": "1.0.0",
+  "description": "Testing something ...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nudoru/s00b-template.git"
+  },
+  "author": "Matt Perkins, hello@mattperkins.me",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nudoru/s00b-template/issues"
+  },
+  "homepage": "https://github.com/nudoru/s00b-template#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "parcel-bundler": "^1.12.4",
+    "ramda": "^0.26.1",
+    "sass": "^1.23.0"
+  }
+}
