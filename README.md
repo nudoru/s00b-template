@@ -1,0 +1,3 @@
+# Bare bones Vanilla JS starter with Docker Build
+
+Clearly a work in progress ...

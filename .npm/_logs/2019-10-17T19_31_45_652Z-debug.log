@@ -1,0 +1,43 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'build' ]
+2 info using npm@6.11.3
+3 info using node@v12.12.0
+4 verbose config Skipping project config: /usr/src/app/.npmrc. (matches userconfig)
+5 verbose run-script [ 'prebuild', 'build', 'postbuild' ]
+6 info lifecycle s00b-template@1.0.0~prebuild: s00b-template@1.0.0
+7 verbose lifecycle s00b-template@1.0.0~prebuild: unsafe-perm in lifecycle true
+8 verbose lifecycle s00b-template@1.0.0~prebuild: PATH: /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/usr/src/app/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+9 verbose lifecycle s00b-template@1.0.0~prebuild: CWD: /usr/src/app
+10 silly lifecycle s00b-template@1.0.0~prebuild: Args: [ '-c', 'rm -rf ./dist' ]
+11 silly lifecycle s00b-template@1.0.0~prebuild: Returned: code: 0  signal: null
+12 info lifecycle s00b-template@1.0.0~build: s00b-template@1.0.0
+13 verbose lifecycle s00b-template@1.0.0~build: unsafe-perm in lifecycle true
+14 verbose lifecycle s00b-template@1.0.0~build: PATH: /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/usr/src/app/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+15 verbose lifecycle s00b-template@1.0.0~build: CWD: /usr/src/app
+16 silly lifecycle s00b-template@1.0.0~build: Args: [
+16 silly lifecycle   '-c',
+16 silly lifecycle   'parcel build --detailed-report ./src/index.html --out-dir ./dist --public-url ./'
+16 silly lifecycle ]
+17 silly lifecycle s00b-template@1.0.0~build: Returned: code: 1  signal: null
+18 info lifecycle s00b-template@1.0.0~build: Failed to exec build script
+19 verbose stack Error: s00b-template@1.0.0 build: `parcel build --detailed-report ./src/index.html --out-dir ./dist --public-url ./`
+19 verbose stack Exit status 1
+19 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:332:16)
+19 verbose stack     at EventEmitter.emit (events.js:210:5)
+19 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+19 verbose stack     at ChildProcess.emit (events.js:210:5)
+19 verbose stack     at maybeClose (internal/child_process.js:1021:16)
+19 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:283:5)
+20 verbose pkgid s00b-template@1.0.0
+21 verbose cwd /usr/src/app
+22 verbose Linux 4.9.184-linuxkit
+23 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "build"
+24 verbose node v12.12.0
+25 verbose npm  v6.11.3
+26 error code ELIFECYCLE
+27 error errno 1
+28 error s00b-template@1.0.0 build: `parcel build --detailed-report ./src/index.html --out-dir ./dist --public-url ./`
+28 error Exit status 1
+29 error Failed at the s00b-template@1.0.0 build script.
+29 error This is probably not a problem with npm. There is likely additional logging output above.
+30 verbose exit [ 1, true ]
