@@ -27,7 +27,6 @@
     "@babel/preset-env": "^7.6.3",
     "cssnano": "^4.1.10",
     "parcel-bundler": "^1.12.4",
-    "ramda": "^0.26.1",
     "sass": "^1.23.0"
   }
 }
