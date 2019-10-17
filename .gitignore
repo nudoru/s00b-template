@@ -1,5 +1,7 @@
 node_modules
 dist
+.npm
+.config
 .idea
 .sass-cache
 .DS_Store
