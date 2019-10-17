@@ -6,7 +6,9 @@ Bare-bones project starter with CSS normalize, Parcel, some JS DOM utils and tha
 
 * Install Docker for your platform
 * Run development with `./dev.sh`
+* Open the browser to `http://localhost:1234`
 * Build for prod with `./build.sh`
+* Prod files in `./dist`
 
 Files
 * `src/index.html`
