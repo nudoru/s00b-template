@@ -1,0 +1,25 @@
+// From my pen https://codepen.io/nudoru/pen/QWWpBVV
+
+.shadow-xs {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.075);
+  }
+  
+  .shadow-sm {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05), 2px 6px 8px -5px rgba(0,0,0,0.15);
+  }
+  
+  .shadow-m {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05), 4px 8px 15px -7px rgba(0,0,0,0.1), 4px 8px 20px rgba(0,0,0,0.10)
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 1px  6px  rgba(0, 0, 0, .1), 0 8px  8px  rgba(0, 0, 0, .05), 4px 23px 40px -15px rgba(0,0,0,0.15), 8px 30px 64px rgba(0, 0, 0, .1)
+  }
+  
+  .shadow-xl {
+    box-shadow: 0 1px  6px  rgba(0, 0, 0, .05), 0 8px  8px  rgba(0, 0, 0, .1), 0 16px 16px rgba(0, 0, 0, .1), 4px 32px 32px rgba(0, 0, 0, .05), 8px 50px 64px rgba(0, 0, 0, .15)
+  }
+
+  .shadow-text-emboss {
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, .15), 1px 1px 0 rgba(255, 255, 255, .1);
+  }
